@@ -58,6 +58,7 @@
     @endif
 
     @if($genres->count() > 0)
+    <h3>Жанры</h3>
     <table class="table table-striped table-bordered">
         <tr>
             <th width="5%">ID</th>
