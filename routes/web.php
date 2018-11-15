@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'SearchController@index')->name('search');
+Route::get('search/fetch_data', 'SearchController@fetch_data');
+
+
